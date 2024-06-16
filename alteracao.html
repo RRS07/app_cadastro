@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alteração</title>
+</head>
+<body>
+    <h1>Alteração</h1>
+    <h2>Dados de registro:</h2>
+    <form method="post" action="consulta.html">
+        <label for="txt.cpf">CPF:</label>
+        <input type="text" disabled="true" id="txt.cpf" name="txt.cpf"
+        value="012.345.678-90">
+        <br>
+        <label for="txt.nome"><u>N</u>ome:</label>
+        <input type="text" id="txt.name" name="txt.nome" tabindex="1"
+        autofocus="true" autocomplete="off" accesskey="n" required="true">
+        <br>
+        <label for="txt.telefone"><u>T</u>elefone</label>
+        <input type="text" id="txt.telefone" name="txt.telefone" tabindex="2"
+        autocomplete="off" accesskey="t" required="true">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

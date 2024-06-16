@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <h2>Dados de registro:</h2>
+    <form method="post" action="consulta.html">
+        <label for="txt.cpf"><u>C</u>PF:</label>
+        <input type="text" id="txt.cpf" name="txt.cpf" tabindex="1" autofocus="true"autocomplete="off"
+        accesskey="C" placeholder="Digite seu CPF">
+        <br>
+        <label for="txt.nome"><u>N</u>ome:</label>
+        <input type="text" id="txt.name" name="txt.nome" tabindex="2"
+        autocomplete="off" accesskey="n" required="true" placeholder="Digite seu nome">
+        <br>
+        <label for="txt.telefone"><u>T</u>elefone:</label>
+        <input type="text" id="txt.telefone" name="txt.telefone" tabindex="3"
+        autocomplete="off" accesskey="t" required="true" placeholder="Digite seu telefone">
+        <br>
+        <input type="submit" value="Enviar" tabindex="4">
+        <input type="reset" value="Limpar" tabindex="5">
+    </form>
+</body>
+</html>
